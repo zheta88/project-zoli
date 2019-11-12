@@ -44,16 +44,16 @@ const Jumbotron = ()=>{
                 <div className="row">
                     <div className="col col-sm-12 col-md-5">
                         <div className="pt-4 mt-4">
-                            <Header>ZOLI-juegos que te enseñan :)</Header>
-                            <Subhead>Encontras la forma de aprender divirtiéndote</Subhead>
+                            <Header>ZOLI</Header>
+                            <Subhead>Saludo de Bienvenida</Subhead>
                             <div className="cta-wrapper">
-                                <Button className="btn fancy-btn" >Empecemos! </Button>
+                                <Button className="btn fancy-btn" >¡Empecemos! </Button>
                             </div>
                         </div>
                     </div>
                     <div className="col col-sm-12 col-md-7">
                         <div className="pt-4 mt-4 text-center">
-                            <iframe width="560" height="315" src="https://ak5.picdn.net/shutterstock/videos/1019633095/preview/stock-footage-global-communication-netowork-concept.webm" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe width="560" height="315" src="https://www.facebook.com/zully.y.martinez/videos/10158183269560639/?t=0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>
