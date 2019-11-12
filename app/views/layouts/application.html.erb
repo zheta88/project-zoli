@@ -9,6 +9,7 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <%= audio_tag "" , id: "sound" , class: "audio-to-play" , autoplay: true %>
+  
     
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -33,5 +34,8 @@
 </nav>
   
     <%= yield %>
+    
   </body>
+ 
 </html>
+
