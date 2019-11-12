@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  get 'repasemos/index'
-  get 'contactanos/index'
-  get 'nosotros/index'
-  get 'home/index'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :repasemos
+  resources :contactanos
+  resources :nosotros
+  root to:"home#index"
 end
