@@ -18,21 +18,8 @@ font-size:18px;
 font-weight:500;
 `
 
-const Button = styled.a`
-display: inline-block;
-text-decoration: none;
-font-weight: bold;
-cursor: pointer;
-border-radius: 0;
-background: #fff;
-color: #333 !important;
-padding: 10px 20 px;
-font-size: 18px;
-width:40%;
-box-shadow: 0px 0px 0px 3px #473228,
--6px 6px #ef5f17,
--6px 6px 0px 3px #473228;
-`
+
+
 
 const Jumbotron = ()=>{
    
@@ -45,9 +32,9 @@ const Jumbotron = ()=>{
                     <div className="col col-sm-12 col-md-5">
                         <div className="pt-4 mt-4">
                             <Header>ZOLI</Header>
-                            <Subhead>Saludo de Bienvenida</Subhead>
-                            <div className="cta-wrapper">
-                                <Button className="btn fancy-btn" >¡Empecemos! </Button>
+                            <Subhead>En el video de al lado, Zully de Zoli, te da la bienvenida.</Subhead>
+                            <div id="draggable" class="ui-widget-content">
+                                <img width="160" height="215" src="https://www.pinclipart.com/picdir/big/143-1435064_the-rapid-changes-in-technology-and-increased-demands.png"></img> 
                             </div>
                         </div>
                     </div>

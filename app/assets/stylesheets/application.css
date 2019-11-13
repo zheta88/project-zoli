@@ -32,6 +32,14 @@
      margin-left: 520px;
  }
 
+ footer{
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+}
+ 
+
  
  
  
