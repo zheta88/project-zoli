@@ -6,10 +6,17 @@ import ReactDOM from 'react-dom'
 import "bootstrap/dist/css/bootstrap.css"
 import Home from "../componentes/Home/Home"
 
-document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <Home/>,
-    document.body.appendChild(document.createElement('div')),
-    )
+
+
+
+// const rootElement = document.getElementById("root");
+// ReactDOM.render(<Home/>, rootElement);
+
+
+ document.addEventListener('DOMContentLoaded', () => {
+   ReactDOM.render(
+     <Home/>,
+     document.body.appendChild(document.createElement('root')),
+     )
   })
  

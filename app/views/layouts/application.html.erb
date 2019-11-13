@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="jqueryui/jquery-ui.css">
      <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
      <link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+      <%# <%= javascript_pack_tag 'index' %> 
+     <%# <script type="text/javascript" src="Jumbotron.js"></script> %>
+     <%# revisar por qué no enlaza la página de inicio con componente jumbotron %>
    
   </head>
   <%= audio_tag "" , id: "sound" , class: "audio-to-play" , autoplay: true %>
-  
+  <%= javascript_pack_tag 'index' %>
     
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-danger">
